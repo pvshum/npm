@@ -1,0 +1,49 @@
+{
+  "name": "ractive-foundation",
+  "version": "0.12.3",
+  "description": "Ractive components for Foundation 5",
+  "main": "dist/ractivef.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ractive-foundation/ractive-foundation.git"
+  },
+  "author": "Pavel Shum <pv.shum@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ractive-foundation/ractive-foundation/issues"
+  },
+  "homepage": "https://github.com/ractive-foundation/ractive-foundation",
+  "dependencies": {
+    "a11y": "^0.3.3",
+    "async": "1.0.0",
+    "find": "~0.1.7",
+    "cucumber": "~0.4.8",
+    "gulp-util": "~3.0.4",
+    "hammerjs": "~2.0.4",
+    "json2htmljson2css": "0.0.1",
+    "lodash-compat": "~3.9.1",
+    "node-notifier": "~4.1.2",
+    "marked": "~0.3.3",
+    "q": "~1.2.0",
+    "ractive": "~0.7.2",
+    "ractive-events-tap": "~0.2.0",
+    "ractive-touch": "~0.4.0",
+    "selenium-standalone": "~4.2.2",
+    "simple-glob": "~0.1.0",
+    "through": "~2.3.6",
+    "through2": "~0.6.3",
+    "vinyl": "~0.4.6",
+    "vinyl-sourcemaps-apply": "^0.2.0",
+    "yargs": "^3.26.0"
+  },
+  "npmName": "ractive-foundation",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "/css"
+}
